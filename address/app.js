@@ -20,7 +20,7 @@ var db = mysql.createConnection({
 });
 db.connect();
 
-// view engine setup
+// view engine setup (template engine)
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
